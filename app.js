@@ -55,7 +55,7 @@ function showTasks() {
         deleteBtn.className = "delete-btn";
 
         let editBtn = document.createElement("button");
-        editBtn.textContent = "✐";
+        editBtn.textContent = "✎";
         editBtn.className = "edit-btn";
 
         // COMPLETE
