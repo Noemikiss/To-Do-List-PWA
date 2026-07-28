@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #282a36;
+    color: #f8f8f2;
+    font-family: "calibri";
+    font-size: 20px;
+}
+
+.app {
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+/*
+*
+* HEADER
+*
+*/
+
+h1 {
+    text-align: center;
+}
+
+
+/*
+*
+* IMPUT FIELDS 
+*
+*/
+
+.input {
+    margin-top: 10px;
+    padding: 10px;
+    background: #44475a;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "calibri";
+    color: #f8f8f2;
+    background: #6272a4;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type="text"]:focus-visible {
+    outline: 2px solid #bd93f9;
+}
+
+input::placeholder {
+    color: #f8f8f2;
+    opacity: 1;
+}
+
+/*
+*
+* SAVED LISTS - DROPDOWN
+*
+*/
+
+.dropdown {
+    margin-top: 10px;
+    padding: 10px;
+    background: #44475a;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "calibri";
+    color: #f8f8f2;
+    background: #6272a4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+
+    /* custom dropdown arrow */
+    background-image: linear-gradient(45deg, transparent 50%, #f8f8f2 50%),
+                      linear-gradient(135deg, #f8f8f2 50%, transparent 50%);
+    background-position:
+        calc(100% - 18px) 50%,
+        calc(100% - 12px) 50%;
+    background-size: 6px 6px, 6px 6px;
+    background-repeat: no-repeat;
+}
+
+select:hover {
+    background: #7082b8;
+}
+
+select:focus-visible {
+    outline: 2px solid #bd93f9;
+}
+
+
+/*
+*
+* BUTTONS
+*
+*/
+
+.buttons {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    background: #44475a;
+    border-radius: 5px;
+}
+button {
+    background: #6272a4;
+    color: #f8f8f2;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:focus-visible {
+    outline: 2px solid #bd93f9;
+}
+
+button:hover {
+    outline: 2px solid #bd93f9;
+}
+
+
+
+
+/*
+*
+* LISTS
+*
+*/
+
+.printout {
+    margin-top: 10px;
+    padding: 10px;
+    background: #44475a;
+    border-radius: 5px;
+}
+
+#list1, #list2 {
+    padding: 5px;
+    font-size: 15px;
+}
+
+li:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: #44475a;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+li span:nth-child(2) {
+    cursor: pointer;
+    
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+}
+
+/*
+*
+* TASKS
+*
+*/
+
+.completed .task-text {
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    background: #bd93f9b0
+}
+
+.task-text {
+    flex: 1;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+
+/*
+*
+* TASK BUTTONS
+*
+*/
+
+.complete-btn {
+    background-color: #6272a4;
+    color: white;
+    padding: 5px 10px;
+}
+
+.delete-btn {
+    background-color: #6272a4;
+    color: white;
+    padding: 5px 10px;
+}
+
+.edit-btn {
+    background-color: #6272a4;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+/*
+*
+* POP-UPS
+*
+*/
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    background: #44475a;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+}
+
+.modal input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #6272a4;
+    color: #f8f8f2;
+}
+
+.modal-buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.modal-buttons button {
+    flex: 1;
+}
+
+

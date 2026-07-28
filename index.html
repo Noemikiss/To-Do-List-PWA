@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="app">
+
+        <h1>🌙</h1>
+
+        <div class="input">
+            <input id="taskInput" type="text" placeholder="Add a task">
+        </div>
+
+        <div class="dropdown">
+            <select id="listSelector">
+                <option>List 1</option>
+                <option>List 2</option>
+                <option>List 3</option>
+            </select>
+        </div>
+
+        <div class="buttons">
+            <button id="addList">NEW LIST</button>
+            <button id="removeList">DELETE LIST</button>
+        </div>
+
+        <div class="printout">
+            <h3 id="currentListTitle">First list</h3>
+
+            <ul id="taskList"></ul>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+
+
+    <div id="modalOverlay" class="modal-overlay hidden">
+    <div class="modal">
+        <h2 id="modalTitle">Title</h2>
+        <input type="text" id="modalInput" placeholder="Type here..." />
+        
+        <div class="modal-buttons">
+            <button id="modalCancel">Cancel</button>
+            <button id="modalConfirm">OK</button>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
