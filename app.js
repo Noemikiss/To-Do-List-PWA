@@ -47,15 +47,15 @@ function showTasks() {
         text.className = "task-text";
 
         let completeBtn = document.createElement("button");
-        completeBtn.textContent = "✓";
+        completeBtn.innerHTML = "&#10003;";
         completeBtn.className = "complete-btn";
 
         let deleteBtn = document.createElement("button");
-        deleteBtn.textContent = "✗";
+        deleteBtn.innerHTML = "&#215;";
         deleteBtn.className = "delete-btn";
 
         let editBtn = document.createElement("button");
-        editBtn.textContent = "✎";
+        editBtn.innerHTML = "&#9998;";
         editBtn.className = "edit-btn";
 
         // COMPLETE
