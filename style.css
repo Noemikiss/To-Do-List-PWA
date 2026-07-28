@@ -275,6 +275,7 @@ ul {
     border-radius: 12px;
     width: 300px;
     text-align: center;
+    font-family: "calibri", "seoge ui", Arial, sans-serif;
 }
 
 .modal input {
@@ -285,16 +286,19 @@ ul {
     border: none;
     background: #6272a4;
     color: #f8f8f2;
+    font-family: "calibri", "seoge ui", Arial, sans-serif;
 }
 
 .modal-buttons {
     margin-top: 15px;
     display: flex;
     gap: 10px;
+
 }
 
 .modal-buttons button {
     flex: 1;
+    font-family: "calibri", "seoge ui", Arial, sans-serif;
 }
 
 
