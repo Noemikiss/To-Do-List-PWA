@@ -111,6 +111,10 @@ select:focus-visible {
     outline: 2px solid #bd93f9;
 }
 
+select option {
+    font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+}
+
 
 /*
 *
