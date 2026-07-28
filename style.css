@@ -7,7 +7,7 @@ body {
     padding: 20px;
     background: #282a36;
     color: #f8f8f2;
-    font-family: "calibri", "seoge ui", Arial, sans-serif;
+    font-family: "calibri", "Segoe UI", Arial, sans-serif;
     font-size: 20px;
 }
 
@@ -47,7 +47,7 @@ input[type="text"] {
     width: 100%;
     padding: 10px;
     font-size: 20px;
-    font-family: "calibri", "seoge ui", Arial, sans-serif;
+    font-family: "calibri", "Segoe UI", Arial, sans-serif;
     color: #f8f8f2;
     background: #6272a4;
     border: none;
@@ -81,7 +81,7 @@ select {
     width: 100%;
     padding: 10px;
     font-size: 20px;
-    font-family: "calibri", "seoge ui", Arial, sans-serif;
+    font-family: "calibri", "Segoe UI", Arial, sans-serif;
     color: #f8f8f2;
     background: #6272a4;
     border: none;
@@ -134,7 +134,7 @@ button {
     padding: 5px 5px;
     cursor: pointer;
     font-size: 20px;
-    font-family: "calibri", "seoge ui", Arial, sans-serif;
+    font-family: "calibri", "Segoe UI", Arial, sans-serif;
 }
 
 button:focus-visible {
@@ -275,7 +275,7 @@ ul {
     border-radius: 12px;
     width: 300px;
     text-align: center;
-    font-family: "calibri", "seoge ui", Arial, sans-serif;
+    font-family: "calibri", "Segoe UI", Arial, sans-serif;
 }
 
 .modal input {
@@ -286,7 +286,7 @@ ul {
     border: none;
     background: #6272a4;
     color: #f8f8f2;
-    font-family: "calibri", "seoge ui", Arial, sans-serif;
+    font-family: "calibri", "Segoe UI", Arial, sans-serif;
 }
 
 .modal-buttons {
@@ -298,7 +298,7 @@ ul {
 
 .modal-buttons button {
     flex: 1;
-    font-family: "calibri", "seoge ui", Arial, sans-serif;
+    font-family: "calibri", "Segoe UI", Arial, sans-serif;
 }
 
 
