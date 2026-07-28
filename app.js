@@ -51,7 +51,7 @@ function showTasks() {
         completeBtn.className = "complete-btn";
 
         let deleteBtn = document.createElement("button");
-        deleteBtn.innerHTML = "&#215;";
+        deleteBtn.innerHTML = "&#10007";
         deleteBtn.className = "delete-btn";
 
         let editBtn = document.createElement("button");
