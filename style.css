@@ -47,7 +47,7 @@ input[type="text"] {
     width: 100%;
     padding: 10px;
     font-size: 20px;
-    font-family: "calibri";
+    font-family: "calibri", "seoge ui", Arial, sans-serif;
     color: #f8f8f2;
     background: #6272a4;
     border: none;
@@ -81,7 +81,7 @@ select {
     width: 100%;
     padding: 10px;
     font-size: 20px;
-    font-family: "calibri";
+    font-family: "calibri", "seoge ui", Arial, sans-serif;
     color: #f8f8f2;
     background: #6272a4;
     border: none;
@@ -134,6 +134,7 @@ button {
     padding: 5px 5px;
     cursor: pointer;
     font-size: 20px;
+    font-family: "calibri", "seoge ui", Arial, sans-serif;
 }
 
 button:focus-visible {
