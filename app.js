@@ -9,6 +9,7 @@ let currentList = "Default";
 const taskInput = document.getElementById("taskInput");
 const taskList = document.getElementById("taskList");
 const addTaskButton = document.getElementById("addTask");
+addTaskButton.addEventListener("click", addTask);
 
 // add task function
 function addTask() {

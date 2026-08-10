@@ -42,14 +42,16 @@ h1 {
 */
 
 .input {
+    display: flex;
     margin-top: 10px;
     padding: 10px;
+    gap: 5px;
     background: #44475a;
     border-radius: 5px;
 }
 
 input {
-    width: 100%;
+    flex: 1;
     padding: 10px;
     font-size: 20px;
     color: #f8f8f2;
@@ -66,6 +68,12 @@ input:focus-visible {
 input::placeholder {
     color: #f8f8f2;
     opacity: 1;
+}
+
+#addTask {
+    flex: 0 0 10%;
+    padding: 5px;
+    font-size: 20px;
 }
 
 /*
